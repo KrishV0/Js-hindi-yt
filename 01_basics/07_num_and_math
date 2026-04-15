@@ -1,0 +1,39 @@
+const num = 480
+const newNum = new Number(480)
+console.log(num)
+console.log(newNum)
+//const a = num.toString()
+//console.log(a.slice(1))
+console.log(num.toString().slice(1))
+
+const c = 123.12312
+console.log(c.toFixed(2)) // 
+
+const d = 23.8966
+console.log(d.toPrecision(4))
+
+const e = 100000000
+console.log(e.toLocaleString('en-IN'))
+
+//++++++++++++++++++++++++++ MATH +++++++++++++++++++++++++++++++
+
+console.log(Math)
+console.log(Math.abs(-4.1234)) // removes negative no
+console.log(Math.round(4.523))
+console.log(Math.ceil(4.523))
+console.log(Math.floor(4.523))
+console.log(Math.max(4,6,445,3255,332))
+console.log(Math.min(4,52,3,234))
+
+
+console.log(Math.random()) // returns a value b/w 0 and 1
+console.log(Math.random()*10+1)
+console.log(Math.random()+1)
+
+// a random value b/w 10 and 20
+
+const x = 10
+const y = 20
+
+console.log(Math.floor(Math.random() * (y-x+1) + x))
+console.log(Math.floor(Math.random() + x))

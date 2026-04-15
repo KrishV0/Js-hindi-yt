@@ -1,0 +1,20 @@
+let myDate = new Date()
+console.log(myDate)
+console.log(myDate.toString())
+console.log(myDate.toLocaleString())
+console.log(typeof myDate) // object
+
+let createdDate = new Date(2026,0,12)
+let createdDate2 = new Date("2026-01-14")
+console.log(createdDate.toDateString())
+console.log(createdDate2.toDateString())
+console.log(createdDate2.getTime()) // always make comparisions in msec
+console.log(Math.floor(createdDate2.getTime()/1000)) // convert msec to sec
+
+
+let myyDate = new Date();
+console.log(myDate.getMonth()+1) // +1 to avoid confusion
+console.log(myDate.getDay())
+myDate.toLocaleString('default',{
+    weekday:"long"
+})

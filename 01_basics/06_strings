@@ -1,0 +1,23 @@
+const name = "krish"
+const oid = "goated"
+
+console.log(name + oid) // this method combining string is trash
+// do this rather
+
+console.log(`my name is ${name} and my online identity is ${oid}`) // much better
+
+const gamename = new String("krish")
+console.log(gamename)
+console.log(gamename[0])
+console.log(gamename.length)
+console.log(gamename.__proto__)
+console.log(gamename.toLowerCase())
+console.log(gamename.toUpperCase())
+console.log(gamename.charAt(3))
+console.log(gamename.indexOf('s'))
+console.log(gamename.substring(0,3))
+console.log(gamename.substring(-3,3))
+console.log(gamename.slice(-3,3))
+
+const url = "https://krish.com/krish%20sharma"
+console.log(url.replace('%','-'))
