@@ -8,6 +8,7 @@ console.log(typeof myArr)
 let Arr1 = [2,2,231,34]
 let Arr2 = Arr1 // refernce to Arr1 , no new arr was created
 Arr2 = [3,23,12]// now new array is created , refernce is broken
+
 console.log(Arr1) // 2,2,231,34  unchanged 
 
 let Arr3 = new Array(1,2,3,4)
